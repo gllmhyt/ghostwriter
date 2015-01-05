@@ -36,6 +36,7 @@ p {
     margin: 0 0 30px;
     -webkit-font-variant-ligatures: common-ligatures;
     font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
 }
 
 a {
@@ -249,6 +250,7 @@ table {
 
 .post-container { 
     margin: 0 40px;
+    text-align: justify;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
