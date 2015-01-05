@@ -34,6 +34,7 @@ h6 { font-size: 14px; margin-bottom: 12px; }
 p {
     line-height: 1.8;
     margin: 0 0 30px;
+    text-rendering: optimizeLegibility;
 }
 
 a {
@@ -247,6 +248,7 @@ table {
 
 .post-container { 
     margin: 0 40px;
+    text-align: justify;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
