@@ -215,7 +215,11 @@ table {
   display: none; }
 
 .post-container {
-  margin: 0 40px; }
+  margin: 0 40px;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
 
 .post-header {
   border-bottom: 6px solid #303030;
