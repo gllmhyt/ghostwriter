@@ -39,7 +39,7 @@ h6 {
 p {
   line-height: 1.8;
   margin: 0 0 30px;
-  -webkit-font-variant-ligatures: common-ligatures;                           
+  -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility; }
 
