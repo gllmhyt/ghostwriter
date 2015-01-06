@@ -39,7 +39,8 @@ h6 {
 p {
   line-height: 1.8;
   margin: 0 0 30px;
-  text-rendering: optimizeLegibility; }
+  -webkit-font-variant-ligatures: common-ligatures;                           
+  font-variant-ligatures: common-ligatures; }
 
 a {
   color: #f03838;
