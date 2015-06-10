@@ -34,9 +34,6 @@ h6 { font-size: 14px; margin-bottom: 12px; }
 p {
     line-height: 1.8;
     margin: 0 0 30px;
-    -webkit-font-variant-ligatures: common-ligatures;
-    font-variant-ligatures: common-ligatures;
-    text-rendering: optimizeLegibility;
 }
 
 a {
@@ -48,7 +45,6 @@ ul, ol {
     list-style-position: outside;
     line-height: 1.8;
     margin: 0 0 40px;
-    padding: 0px 0px 0px 1rem;
 
     ul, ol { margin: 10px 0 0 20px; }
 
@@ -57,6 +53,19 @@ ul, ol {
 
         &:last-of-type { margin-bottom: 0; }
     }
+}
+
+ul { padding-left: 20px; }
+ol { padding-left: 22px; }
+
+ul ul,
+ol ul {
+    padding-left: 0;
+}
+
+ul ol,
+ol ol {
+    padding-left: 5px;
 }
 
 blockquote {
@@ -248,14 +257,7 @@ table {
 
 #latest-post { display: none; }
 
-.post-container { 
-    margin: 0 40px;
-    text-align: justify;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-}
+.post-container { margin: 0 40px; }
 
 .post-header {
     border-bottom: 6px solid $secondary;
