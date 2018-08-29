@@ -4,7 +4,7 @@
     <header class="post-header">
         <h1 class="post-title">{{title}}</h1>
 
-        <p class="post-date">{{t "Published"}} <time datetime="{{published_at}}">{{date published_at timeago="true"}}</time> <strong>{{t "by"}} {{author}}</strong></p>
+        <p class="post-date">{{t "Published"}} <time datetime="{{published_at}}">{{date published_at timeago="true"}}</time> <strong>{{t "by"}} {{authors}}</strong></p>
     </header>
 
     <div class="post-content clearfix">
@@ -39,6 +39,6 @@
     </footer>
 
     <div class="post-comments clearfix">
-	<section id="isso-thread" data-isso-id="{{url relative="true"}}"></section>
+        <section id="isso-thread" data-isso-id="{{url relative="true"}}"></section>
     </div>
 </article>
